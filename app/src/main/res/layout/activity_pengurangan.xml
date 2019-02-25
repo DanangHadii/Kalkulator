@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black" >
+
+    <TextView
+    android:id="@+id/tvPengurangan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PENGURANGAN"
+    android:textSize="50dp"
+    android:textColor="@android:color/holo_red_light"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:layout_marginTop="100dp"
+    android:layout_marginBottom="20dp" />
+    <EditText
+        android:id="@+id/etAngka1"
+        android:hint="Masukan angka"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etAngka2"
+        android:hint="Masukan angka"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnHasilKurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HASIL" />
+    <TextView
+        android:id="@+id/tvHasilKurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"/>
+</LinearLayout>
